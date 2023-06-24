@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/CamerasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/DesktopsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/IphonePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestFifth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestFourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestZero.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RTdIgZWvjEO7jgWcOoLetkWLT4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestFifth.Test">
+    <configuration name="TestFifth.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFifth" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFourth.testFourth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFourth" />
+      <option name="METHOD_NAME" value="testFourth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSecond.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSecond" />
+      <option name="METHOD_NAME" value="testOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThird.testThird" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestThird" />
+      <option name="METHOD_NAME" value="testThird" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThird.testThriftSortPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestThird" />
+      <option name="METHOD_NAME" value="testThriftSortPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestFifth.Test" />
+        <item itemvalue="TestNG.TestFourth.testFourth" />
+        <item itemvalue="TestNG.TestThird.testThird" />
+        <item itemvalue="TestNG.TestSecond.testOne" />
+        <item itemvalue="TestNG.TestThird.testThriftSortPrice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="" />
+      <created>1687277929421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687277929421</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
