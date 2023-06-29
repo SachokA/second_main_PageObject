@@ -4,30 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/CamerasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/DesktopsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/IphonePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestFifth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestFourth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestZero.java" afterDir="false" />
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="All task POM">
+      <change afterPath="$PROJECT_DIR$/src/main/java/helper/WaiterHelpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/checkAlertMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/checkDesktopsSortedPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/CamerasPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/CamerasPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/DesktopsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/DesktopsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/IphonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/IphonePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFifth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkCameras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkPriceIphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkDekstopsAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestThird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckBrandsList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,42 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.TestFifth.Test">
-    <configuration name="TestFifth.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.checkDesktopsSortedPrice.testThird">
+    <configuration name="cathcAlert.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFifth" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFourth.testFourth" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="second_main_PageObject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestFourth" />
-      <option name="METHOD_NAME" value="testFourth" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSecond.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="second_main_PageObject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSecond" />
+      <option name="MAIN_CLASS_NAME" value="cathcAlert" />
       <option name="METHOD_NAME" value="testOne" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -94,10 +67,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThird.testThird" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="checkCameras.Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestThird" />
+      <option name="MAIN_CLASS_NAME" value="checkCameras" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkDekstopsAll.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkDekstopsAll" />
+      <option name="METHOD_NAME" value="testOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkDesktopsSortedPrice.testThird" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second_main_PageObject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkDesktopsSortedPrice" />
       <option name="METHOD_NAME" value="testThird" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -106,11 +103,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThird.testThriftSortPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="checkPriceIphone.testFourth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestThird" />
-      <option name="METHOD_NAME" value="testThriftSortPrice" />
+      <option name="MAIN_CLASS_NAME" value="checkPriceIphone" />
+      <option name="METHOD_NAME" value="testFourth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestFifth.Test" />
-        <item itemvalue="TestNG.TestFourth.testFourth" />
-        <item itemvalue="TestNG.TestThird.testThird" />
-        <item itemvalue="TestNG.TestSecond.testOne" />
-        <item itemvalue="TestNG.TestThird.testThriftSortPrice" />
+        <item itemvalue="TestNG.checkDesktopsSortedPrice.testThird" />
+        <item itemvalue="TestNG.checkDekstopsAll.testOne" />
+        <item itemvalue="TestNG.cathcAlert.testOne" />
+        <item itemvalue="TestNG.checkCameras.Test" />
+        <item itemvalue="TestNG.checkPriceIphone.testFourth" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1687277929421</updated>
     </task>
+    <task id="LOCAL-00001" summary="All task POM">
+      <created>1687611114640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687611114640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +154,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All task POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="All task POM" />
   </component>
 </project>

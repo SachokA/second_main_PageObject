@@ -5,12 +5,11 @@ import page.MainPage;
 import java.util.Arrays;
 import java.util.List;
 
-public class TestZero extends BaseTest{
+public class CheckBrandsList extends BaseTest{
 
     @Test
     public void testZero(){
         MainPage mainPage = new MainPage();
-
         List<String> actualBrandsList = mainPage
                 .clickLinkBrands()
                 .getBrands();

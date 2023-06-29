@@ -18,8 +18,4 @@ public class BaseTest {
     public void quite(){
         BasePage.getDriver().quit();
     }
-    @AfterMethod(alwaysRun = true)
-    public void clear(){BasePage.getDriver().close();
-
-    }
-}
+  }
