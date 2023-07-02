@@ -18,7 +18,7 @@ public class MainPage extends BasePage{
     private WebElement buttonMyAccount;
     @FindBy(xpath  = "//*[@id='top']/div[2]/div[2]/ul/li[2]/div/ul/li[2]/a")
     private WebElement buttonLogin;
-    @FindBy(xpath = "//*[@id='narbar-menu']/ul/li[1]/a")
+    @FindBy(xpath = "//*[text()='Desktops']")
     private WebElement narbarMenu;
     @FindBy(xpath = "//a[text()='Show All Desktops']")
     private WebElement showAllDesktops;

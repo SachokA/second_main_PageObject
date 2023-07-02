@@ -1,4 +1,4 @@
-import org.testng.Assert;
+import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
 import page.IphonePage;
 import page.MainPage;
@@ -11,7 +11,7 @@ import page.MainPage;
 //    Chekk that price 106.04
 //    Change currency to Pound Sterling
 //    Check that price 95.32*/
-public class checkPriceIphone extends BaseTest {
+public class CheckPriceIphone extends BaseTest {
     @Test
     public void testFourth() {
         MainPage mainPage = new MainPage();
@@ -20,14 +20,19 @@ public class checkPriceIphone extends BaseTest {
                 .clickIphone();
         String actualResultPriceDollar = iphonePage
                 .getPriceIphoneDollar();
-        Assert.assertEquals(actualResultPriceDollar, "123.20");
+        SoftAssertions softAssertions = new SoftAssertions();
+        softAssertions.assertThat(actualResultPriceDollar).as("Not the same").isEqualTo("123.20");
+
         iphonePage.changedCurrencyEuro();
         String actualResultPriceEuro = iphonePage
                 .getPriceIphoneEuro();
-        Assert.assertEquals(actualResultPriceEuro, "106.04");
+        softAssertions.assertThat(actualResultPriceEuro).as("Not the same").isEqualTo("106.04");
+
         iphonePage.changedCurrencyPound();
         String actualResultPricePound = iphonePage
                 .getPriceIphoneDPound();
-        Assert.assertEquals(actualResultPricePound, "95.32");
+        softAssertions.assertThat(actualResultPricePound).as("Not the same").isEqualTo("95.32");
+
+        softAssertions.assertAll();
     }
 }

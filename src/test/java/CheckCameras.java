@@ -11,7 +11,7 @@ Check that 2 cameras exist on page
 Check that Canon EOS 5D has old price 122.00
 Check that Canon EOS 5D has new price 98.00
 Check that Nikon D300 has ex.rate 80.00*/
-public class checkCameras extends BaseTest {
+public class CheckCameras extends BaseTest {
 
     @Test
     public void Test() {

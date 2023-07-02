@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.MainPage;
 
-public class checkAlertMessage extends BaseTest{
+public class CheckAlertMessage extends BaseTest{
 
     @Test
     public void testOne(){

@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 import page.DesktopsPage;
 import page.MainPage;
 
-public class checkDekstopsAll extends BaseTest {
+public class CheckDekstopsAll extends BaseTest {
     @Test
     public void testOne() {
         MainPage mainPage = new MainPage();
@@ -11,7 +11,7 @@ public class checkDekstopsAll extends BaseTest {
         String actualCountShow = mainPage.clickButtonShowAllDesktop()
                 .getValueCountShow();
         Assert.assertEquals(actualCountShow, "10");
-        String actualSortShow = mainPage.clickButtonShowAllDesktop()
+        String actualSortShow = desktopsPage
                 .getValueSortShow();
         Assert.assertEquals(actualSortShow, "Default");
         int actualCountProducts = desktopsPage

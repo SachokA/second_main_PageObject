@@ -5,7 +5,7 @@ import page.MainPage;
 
 import java.util.List;
 
-public class checkDesktopsSortedPrice extends BaseTest {
+public class CheckDesktopsSortedPrice extends BaseTest {
 
     @Test
     public void testThird() {
@@ -18,7 +18,7 @@ public class checkDesktopsSortedPrice extends BaseTest {
         List<String> expectedList = desktopsPage
                 .getProductsSort();
         Assert.assertEquals(actualList, expectedList);
-        mainPage.clickButtonShowAllDesktop()
+        desktopsPage
                 .selectSortedPrice("Price (Low > High)");
         List<Double> actualListPrice = desktopsPage
                 .getProductsPrice();
