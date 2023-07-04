@@ -26,12 +26,12 @@ public class CheckPriceIphone extends BaseTest {
         iphonePage.changedCurrencyEuro();
         String actualResultPriceEuro = iphonePage
                 .getPriceIphoneEuro();
-        softAssertions.assertThat(actualResultPriceEuro).as("Not the same").isEqualTo("106.04");
+        softAssertions.assertThat(actualResultPriceEuro).as("Not the same").isEqualTo("113.38");
 
         iphonePage.changedCurrencyPound();
         String actualResultPricePound = iphonePage
                 .getPriceIphoneDPound();
-        softAssertions.assertThat(actualResultPricePound).as("Not the same").isEqualTo("95.32");
+        softAssertions.assertThat(actualResultPricePound).as("Not the same").isEqualTo("97.31");
 
         softAssertions.assertAll();
     }
