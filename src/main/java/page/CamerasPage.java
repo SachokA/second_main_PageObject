@@ -1,5 +1,6 @@
 package page;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -16,8 +17,19 @@ public class CamerasPage extends BasePage {
     private WebElement camerasPriceTax;
     @FindBy(xpath = "//div[@class='product-thumb']")
     private List<WebElement> productsAllCamera;
+    @FindBy(xpath = "//div[@class='product-thumb']")
+    private List<WebElement> productContainerLocator;
     public CamerasPage() {
         PageFactory.initElements(getDriver(), this);
+    }
+    public List<ProductComponentCameras> getAllProductsFromCamerasPage() {
+        List<ProductComponentCameras> products = new ArrayList<>();
+        List<WebElement> containers = productContainerLocator;
+        for (WebElement container : containers) {
+            ProductComponentCameras productComponent = new ProductComponentCameras(container);
+            products.add(productComponent);
+        }
+        return products;
     }
     public List<String> getCameras() {
         List<String> list = new ArrayList<>();
