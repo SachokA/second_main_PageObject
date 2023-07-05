@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="next commit: nothing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/ProductComponentCameras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductsTestCameras.java" afterDir="false" />
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Created ProductComponentCameras and ProductsTestCameras">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/CamerasPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/CamerasPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688501549094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created ProductComponentCameras and ProductsTestCameras">
+      <created>1688565360827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688565360827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +185,8 @@
     <MESSAGE value="Changed Assert to SoftAssertion in checkPriceIphone" />
     <MESSAGE value="Changed current price Euro and Pound,chenged deppendency Java on 17" />
     <MESSAGE value="next commit: nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="next commit: nothing" />
+    <MESSAGE value="Created ProductComponentCameras and ProductsTestCameras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created ProductComponentCameras and ProductsTestCameras" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,6 +12,7 @@
             <class name="CheckDekstopsAll"/>
             <class name="CheckDesktopsSortedPrice"/>
             <class name="CheckPriceIphone"/>
+            <class name="ProductsTestCameras"/>
         </classes>
     </test>
 </suite>
