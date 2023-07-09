@@ -12,7 +12,7 @@ public class CheckAlertMessage extends BaseTest{
                 .fullInputEmail()
                 .buttonClickContinue()
                 .alertMessage();
-        Assert.assertEquals(actualMessage, "  Warning: The E-Mail Address was not found in our records!");
+        Assert.assertEquals(actualMessage, "Warning: The E-Mail Address was not found in our records!");
     }
 }
 

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Changed all name tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Error in message alert">
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckAlertMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckAlertMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688893030644</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Error in message alert">
+      <created>1688912587082</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688912587082</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +209,8 @@
     <MESSAGE value="Created ProductComponentCameras and ProductsTestCameras" />
     <MESSAGE value="Fixed testng added class" />
     <MESSAGE value="Changed all name tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed all name tests" />
+    <MESSAGE value="Error in message alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error in message alert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
