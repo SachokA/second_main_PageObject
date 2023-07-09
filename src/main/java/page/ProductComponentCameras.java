@@ -5,6 +5,7 @@ import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+
 @Getter
 public class ProductComponentCameras {
     private WebElement image;
@@ -12,10 +13,10 @@ public class ProductComponentCameras {
     private String currentPrice;
     private String oldPrice;
     private String exTaxPrice;
-  //  private String reviews;
 
     public ProductComponentCameras() {
     }
+
     public ProductComponentCameras(WebElement container) {
         this.image = container.findElement(By.xpath(".//div[@class='image']"));
         this.name = container
@@ -28,11 +29,6 @@ public class ProductComponentCameras {
         }
         this.currentPrice = container.findElement(By.xpath(".//span[@class='price-new']")).getText().substring(1);
         this.exTaxPrice = container.findElement(By.xpath(".//span[@class='price-tax']")).getText().substring(9);
-//        try {
-//            this.reviews = container.findElement(By.xpath(".//a[@class='action view']")).getText();
-//        } catch (NoSuchElementException e) {
-//            this.reviews = null;
-//        }
     }
 }
 

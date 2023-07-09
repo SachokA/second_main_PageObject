@@ -13,7 +13,7 @@ import page.MainPage;
 //    Check that price 95.32*/
 public class CheckPriceIphone extends BaseTest {
     @Test
-    public void testFourth() {
+    public void checkPriceIphone() {
         MainPage mainPage = new MainPage();
         IphonePage iphonePage = new IphonePage();
         mainPage.checkCurrencyIsDollar()

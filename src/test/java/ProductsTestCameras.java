@@ -3,11 +3,9 @@ import org.testng.annotations.Test;
 import page.CamerasPage;
 import page.MainPage;
 import page.ProductComponentCameras;
-
 import java.util.List;
-import java.util.Objects;
 
-public class ProductsTestCameras extends BaseTest{
+public class ProductsTestCameras extends BaseTest {
     @Test
     public void Test() {
         MainPage mainPage = new MainPage();
@@ -16,7 +14,8 @@ public class ProductsTestCameras extends BaseTest{
         String expectedPrice = "98.00";
         String expectedTax = "80.00";
         mainPage.clickButtonCameras();
-        List<ProductComponentCameras> products = camerasPage.getAllProductsFromCamerasPage();
+        List<ProductComponentCameras> products = camerasPage
+                .getAllProductsFromCamerasPage();
         ProductComponentCameras productToCheck = null;
 
         for (ProductComponentCameras product : products) {
@@ -31,5 +30,5 @@ public class ProductsTestCameras extends BaseTest{
         Assertions.assertThat(productToCheck.getExTaxPrice())
                 .as("Product Ex tax should be $80.00")
                 .isEqualTo(expectedTax);
-
-}}
+    }
+}

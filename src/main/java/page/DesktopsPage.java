@@ -61,7 +61,6 @@ public class DesktopsPage extends BasePage{
         return this;
     }
 
-
     public List<Double> getProductsPrice() {
         List<WebElement> all = productsPrice;
         List<Double> list = new ArrayList<>();

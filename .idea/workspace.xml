@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Created ProductComponentCameras and ProductsTestCameras">
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Fixed testng added class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/DesktopsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/DesktopsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/ProductComponentCameras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ProductComponentCameras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckAlertMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckAlertMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckBrandsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckBrandsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckCameras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckCameras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckDekstopsAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckDekstopsAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckDesktopsSortedPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckDesktopsSortedPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckPriceIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckPriceIphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductsTestCameras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductsTestCameras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +54,7 @@
       <recent name="C:\Users\Aguka\second_main_PageObject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProductsTestCameras.Test">
+  <component name="RunManager" selected="TestNG.CheckDesktopsSortedPrice.testThird">
     <configuration name="CheckAlertMessage.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,11 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckPriceIphone.testFourth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckDesktopsSortedPrice.testThird" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckPriceIphone" />
-      <option name="METHOD_NAME" value="testFourth" />
+      <option name="MAIN_CLASS_NAME" value="CheckDesktopsSortedPrice" />
+      <option name="METHOD_NAME" value="testThird" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckDesktopsSortedPrice.testThird" />
         <item itemvalue="TestNG.ProductsTestCameras.Test" />
         <item itemvalue="TestNG.ProductsTestCameras" />
         <item itemvalue="TestNG.CheckAlertMessage.testOne" />
         <item itemvalue="TestNG.CheckBrandsList.testZero" />
-        <item itemvalue="TestNG.CheckPriceIphone.testFourth" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688565360827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed testng added class">
+      <created>1688565979823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688565979823</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,14 +203,15 @@
     <MESSAGE value="Changed current price Euro and Pound,chenged deppendency Java on 17" />
     <MESSAGE value="next commit: nothing" />
     <MESSAGE value="Created ProductComponentCameras and ProductsTestCameras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created ProductComponentCameras and ProductsTestCameras" />
+    <MESSAGE value="Fixed testng added class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed testng added class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/page/ProductComponentCameras.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

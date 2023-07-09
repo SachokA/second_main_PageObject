@@ -5,21 +5,36 @@ import page.MainPage;
 
 public class CheckDekstopsAll extends BaseTest {
     @Test
-    public void testOne() {
+    public void checkValueCountShowTen() {
         MainPage mainPage = new MainPage();
-        DesktopsPage desktopsPage = new DesktopsPage();
-        String actualCountShow = mainPage.clickButtonShowAllDesktop()
+        String actualCountShow = mainPage
+                .clickButtonShowAllDesktop()
                 .getValueCountShow();
         Assert.assertEquals(actualCountShow, "10");
+    }
+
+    @Test
+    public void checkValueSortShowDefault() {
+        DesktopsPage desktopsPage = new DesktopsPage();
         String actualSortShow = desktopsPage
                 .getValueSortShow();
         Assert.assertEquals(actualSortShow, "Default");
+    }
+
+    @Test
+    public void countElementOnDesktopsPageShouldHaveTen() {
+        DesktopsPage desktopsPage = new DesktopsPage();
         int actualCountProducts = desktopsPage
                 .countFindAll();
         Assert.assertEquals(actualCountProducts, 10);
-        String actualGetText = desktopsPage.selectCountShow("25")
+    }
+
+    @Test
+    public void selectCountShowTwentyFiveCheckMessage() {
+        DesktopsPage desktopsPage = new DesktopsPage();
+        String actualGetText = desktopsPage
+                .selectCountShow("25")
                 .getValueCheckTest();
         Assert.assertEquals(actualGetText, "Showing 1 to 12 of 12 (1 Pages)");
-
     }
 }
