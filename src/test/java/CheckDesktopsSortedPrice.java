@@ -22,8 +22,9 @@ public class CheckDesktopsSortedPrice extends BaseTest {
 
     @Test
     public void checkSortedPriceLowHigh() {
+        MainPage mainPage = new MainPage();
         DesktopsPage desktopsPage = new DesktopsPage();
-        desktopsPage
+        mainPage.clickButtonShowAllDesktop()
                 .selectSortedPrice("Price (Low > High)");
         List<Double> actualListPrice = desktopsPage
                 .getProductsPrice();
