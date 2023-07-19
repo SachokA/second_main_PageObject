@@ -1,11 +1,12 @@
 package page;
 
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
+@Slf4j
 public class MainPage extends BasePage {
     @FindBy(xpath = "//a[text()='Brands']")
     private WebElement brandsLocator;
@@ -47,6 +48,7 @@ public class MainPage extends BasePage {
     }
 
     public BrandsPage clickLinkBrands() {
+        log.info("Clicking to link brands");
         JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].click()", brandsLocator);
         return new BrandsPage();
@@ -59,13 +61,16 @@ public class MainPage extends BasePage {
     }
 
     public LoginPage clickButtonMyAccount() {
+        log.info("Clicking button my account");
         buttonMyAccount.click();
         buttonLogin.click();
         return new LoginPage();
     }
 
     public CamerasPage clickButtonCameras() {
+        log.info("Clicking button Cameras");
         cameras.click();
         return new CamerasPage();
     }
+
 }

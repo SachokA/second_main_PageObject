@@ -1,14 +1,15 @@
+import lombok.extern.slf4j.Slf4j;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.MainPage;
-
+@Slf4j
 public class CheckAlertMessage extends BaseTest{
 
     @Test
     public void checkAlertMessageOnPageForgottenPassword(){
         MainPage mainPage = new MainPage();
         String actualMessage = mainPage.clickButtonMyAccount()
-                .clickButtonForgottenPasword()
+                .clickButtonForgottenPassword()
                 .fullInputEmail()
                 .buttonClickContinue()
                 .alertMessage();

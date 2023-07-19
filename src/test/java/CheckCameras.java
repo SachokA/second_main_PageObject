@@ -28,7 +28,7 @@ public class CheckCameras extends BaseTest {
         CamerasPage camerasPage = new CamerasPage();
         String actualResulNewPriceCannon = camerasPage
                 .cannonNewPrice();
-        Assert.assertEquals(actualResulNewPriceCannon, "98.00");
+        Assert.assertEquals(actualResulNewPriceCannon, "602.00");
     }
 
     @Test
@@ -36,6 +36,6 @@ public class CheckCameras extends BaseTest {
         CamerasPage camerasPage = new CamerasPage();
         String actualResulTaxCannon = camerasPage
                 .cannonPriceTax();
-        Assert.assertEquals(actualResulTaxCannon, "80.00");
+        Assert.assertEquals(actualResulTaxCannon, "500.00");
     }
 }

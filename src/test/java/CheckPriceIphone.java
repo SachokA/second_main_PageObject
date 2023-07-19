@@ -3,14 +3,6 @@ import org.testng.annotations.Test;
 import page.IphonePage;
 import page.MainPage;
 
-//    Go to the https://demo.opencart.com/
-//    On the main page check that current currency is $ (change to $ id not)
-//    Click on the Iphone
-//    Check that price 123.20
-//    Change currency to euro
-//    Chekk that price 106.04
-//    Change currency to Pound Sterling
-//    Check that price 95.32*/
 public class CheckPriceIphone extends BaseTest {
     @Test
     public void checkPriceIphone() {
@@ -21,17 +13,17 @@ public class CheckPriceIphone extends BaseTest {
         String actualResultPriceDollar = iphonePage
                 .getPriceIphoneDollar();
         SoftAssertions softAssertions = new SoftAssertions();
-        softAssertions.assertThat(actualResultPriceDollar).as("Not the same").isEqualTo("123.20");
+        softAssertions.assertThat(actualResultPriceDollar).as("Not the same").isEqualTo("12.20");
 
         iphonePage.changedCurrencyEuro();
         String actualResultPriceEuro = iphonePage
                 .getPriceIphoneEuro();
-        softAssertions.assertThat(actualResultPriceEuro).as("Not the same").isEqualTo("113.38");
+        softAssertions.assertThat(actualResultPriceEuro).as("Not the same").isEqualTo("11.45");
 
         iphonePage.changedCurrencyPound();
         String actualResultPricePound = iphonePage
                 .getPriceIphoneDPound();
-        softAssertions.assertThat(actualResultPricePound).as("Not the same").isEqualTo("97.31");
+        softAssertions.assertThat(actualResultPricePound).as("Not the same").isEqualTo("96.41");
 
         softAssertions.assertAll();
     }

@@ -1,9 +1,10 @@
 package page;
 
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+@Slf4j
 public class ForgottenPasswordPage extends BasePage {
 
     @FindBy(xpath = "//input[@id='input-email']")
@@ -18,16 +19,19 @@ public class ForgottenPasswordPage extends BasePage {
     }
 
     public ForgottenPasswordPage fullInputEmail() {
+        log.info("Fulling input email");
         inputEmailNew.sendKeys("awdasds@dfg.uo");
         return this;
     }
 
     public ForgottenPasswordPage buttonClickContinue() {
+        log.info("Clicking button continue");
         buttonContinue.click();
         return this;
     }
 
     public String alertMessage() {
+        log.info("Checking alert message");
         waitUntilPresent(alert, 10);
         return alert.getText();
     }

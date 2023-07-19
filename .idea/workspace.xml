@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Not error in message alert">
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Fixed some test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckDekstopsAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckDekstopsAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckDesktopsSortedPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckDesktopsSortedPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/ForgottenPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/IphonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/IphonePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckAlertMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckAlertMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckBrandsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckBrandsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckCameras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckCameras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckPriceIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckPriceIphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,28 +41,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aguka/OneDrive/Рабочий стол/useful material for me/CDP_Lab_Selenium_Advanced (1)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Aguka/OneDrive/Рабочий стол/useful material for me/CDP_Lab_Selenium_Advanced (1)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aguka\second_main_PageObject\src\test\resources" />
       <recent name="C:\Users\Aguka\second_main_PageObject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckAlertMessage">
-    <configuration name="CheckAlertMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckAlertMessage.checkAlertMessageOnPageForgottenPassword">
+    <configuration name="CheckAlertMessage.checkAlertMessageOnPageForgottenPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckAlertMessage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="checkAlertMessageOnPageForgottenPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -69,11 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckCameras" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBrandsList.checkBrandsListOnMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckCameras" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="CheckBrandsList" />
+      <option name="METHOD_NAME" value="checkBrandsListOnMainPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -91,11 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckDekstopsAll.selectCountShowTwentyFiveCheckMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckDekstopsAll.checkValueCountShowTen" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="second_main_PageObject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckDekstopsAll" />
-      <option name="METHOD_NAME" value="selectCountShowTwentyFiveCheckMessage" />
+      <option name="METHOD_NAME" value="checkValueCountShowTen" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckAlertMessage" />
+        <item itemvalue="TestNG.CheckAlertMessage.checkAlertMessageOnPageForgottenPassword" />
         <item itemvalue="TestNG.CheckBrandsList" />
-        <item itemvalue="TestNG.CheckCameras" />
+        <item itemvalue="TestNG.CheckBrandsList.checkBrandsListOnMainPage" />
+        <item itemvalue="TestNG.CheckDekstopsAll.checkValueCountShowTen" />
         <item itemvalue="TestNG.CheckDekstopsAll" />
-        <item itemvalue="TestNG.CheckDekstopsAll.selectCountShowTwentyFiveCheckMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688914787825</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed some test">
+      <created>1689237037229</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689237037229</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +239,8 @@
     <MESSAGE value="Changed all name tests" />
     <MESSAGE value="Error in message alert" />
     <MESSAGE value="Not error in message alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not error in message alert" />
+    <MESSAGE value="Fixed some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
