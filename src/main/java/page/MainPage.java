@@ -42,14 +42,14 @@ public class MainPage extends BasePage {
     }
 
     public IphonePage clickIphone() {
-        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        JavascriptExecutor executor = (JavascriptExecutor) getDriver();
         executor.executeScript("arguments[0].click()", iPhone);
         return new IphonePage();
     }
 
     public BrandsPage clickLinkBrands() {
         log.info("Clicking to link brands");
-        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        JavascriptExecutor executor = (JavascriptExecutor) getDriverThreadLocal();
         executor.executeScript("arguments[0].click()", brandsLocator);
         return new BrandsPage();
     }

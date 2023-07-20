@@ -11,6 +11,13 @@ import java.util.List;
 
 
 public abstract class BasePage {
+    private static final ThreadLocal<WebDriver> DRIVER_THREAD_LOCAL = new ThreadLocal<>();
+    public static ThreadLocal<WebDriver> getDriverThreadLocal(){
+        return DRIVER_THREAD_LOCAL;
+    }
+    public static void setDriverThreadLocal(WebDriver webDriver){
+        DRIVER_THREAD_LOCAL.set(webDriver);
+    }
     protected WebElement waitUntilPresent(WebElement webElement, int seconds) {
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(seconds));
         return wait.until(ExpectedConditions.visibilityOf(webElement));
@@ -22,14 +29,9 @@ public abstract class BasePage {
     public List<WebElement> findAll(By locator) {
         return getDriver().findElements(locator);
     }
-    protected static WebDriver driver;
+//    protected static WebDriver driver;
     public static WebDriver getDriver() {
-        return driver;
+        return DRIVER_THREAD_LOCAL.get();
     }
-    public static void setDriver(WebDriver webDriver) {
-        driver = webDriver;
-    }
-
-
-
+ //
 }

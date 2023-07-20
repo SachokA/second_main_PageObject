@@ -13,6 +13,11 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.19</aspectj.version>
+        <suite>src/main/resources/testng.xml</suite>
+        <browserWidth>1920</browserWidth>
+        <browserHeight>1080</browserHeight>
+        <browser>CHROME</browser>
+        <threads>4</threads>
     </properties>
 
     <dependencies>
@@ -36,9 +41,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-                <groupId>com.codeborne</groupId>
-                <artifactId>selenide</artifactId>
-                <version>6.14.1</version>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>6.14.1</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -69,17 +74,31 @@
                     <version>2.10.0</version>
                     <configuration>
                         <reportVersion>2.10.0</reportVersion>
-                       <resultsDirectory>${project.build.directory}/reports/allure-results</resultsDirectory>
+                        <resultsDirectory>${project.build.directory}/reports/allure-results</resultsDirectory>
                     </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.0.0-M7</version>
                     <configuration>
+                        <suiteXmlFiles>
+                            <suiteXmlFile>${suite}</suiteXmlFile>
+                        </suiteXmlFiles>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
+                        <systemPropertyVariables>
+                            <browser.width>${browserWidth}</browser.width>
+                            <browser.height>${browserHeight}</browser.height>
+                            <browser.type>${browser}</browser.type>
+                            <allure.results.directory>${project.build.directory}/allure-results
+                            </allure.results.directory>
+                        </systemPropertyVariables>
+
+                        <parallel>classes</parallel>
+                        <threadCount>${threads}</threadCount>
+                        <perCoreThreadCount>true</perCoreThreadCount>
                         <systemProperties>
                             <property>
                                 <name>allure.results.directory</name>
@@ -87,16 +106,13 @@
                             </property>
                         </systemProperties>
 
-                        <suiteXmlFiles>
-                            <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
-                        </suiteXmlFiles>
                     </configuration>
                     <dependencies>
                         <dependency>
                             <groupId>org.aspectj</groupId>
                             <artifactId>aspectjweaver</artifactId>
-                           <version>${aspectj.version}</version>
-                       </dependency>
+                            <version>${aspectj.version}</version>
+                        </dependency>
                     </dependencies>
                 </plugin>
             </plugins>

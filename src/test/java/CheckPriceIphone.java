@@ -13,7 +13,7 @@ public class CheckPriceIphone extends BaseTest {
         String actualResultPriceDollar = iphonePage
                 .getPriceIphoneDollar();
         SoftAssertions softAssertions = new SoftAssertions();
-        softAssertions.assertThat(actualResultPriceDollar).as("Not the same").isEqualTo("12.20");
+        softAssertions.assertThat(actualResultPriceDollar).as("Not the same").isEqualTo("120.20");
 
         iphonePage.changedCurrencyEuro();
         String actualResultPriceEuro = iphonePage
