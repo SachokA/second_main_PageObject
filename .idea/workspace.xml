@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Created log with allure and made screenShots for tests which were failed.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/BrowserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/BrowserFactory.java" afterDir="false" />
+    <list default="true" id="3862a8f8-d4cc-4ea6-9bc9-b910eceb7c6e" name="Changes" comment="Set paralleled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BrandsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/BrowserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BrowserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckPriceIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckPriceIphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689778724360</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Set paralleled">
+      <created>1689881506104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689881506104</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +246,8 @@
     <MESSAGE value="Not error in message alert" />
     <MESSAGE value="Fixed some test" />
     <MESSAGE value="Created log with allure and made screenShots for tests which were failed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created log with allure and made screenShots for tests which were failed." />
+    <MESSAGE value="Set paralleled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set paralleled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

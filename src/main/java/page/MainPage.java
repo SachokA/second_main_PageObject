@@ -49,7 +49,7 @@ public class MainPage extends BasePage {
 
     public BrandsPage clickLinkBrands() {
         log.info("Clicking to link brands");
-        JavascriptExecutor executor = (JavascriptExecutor) getDriverThreadLocal();
+        JavascriptExecutor executor = (JavascriptExecutor) getDriver();
         executor.executeScript("arguments[0].click()", brandsLocator);
         return new BrandsPage();
     }
